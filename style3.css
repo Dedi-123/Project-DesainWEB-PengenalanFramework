@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("sawit.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    cursor: pointer;
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+    text-align: center;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a  {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px solid gray;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: gray;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.navbar ul li:hover {
+    background: gray;
+}
+
+.content {
+    border: 2px gray;
+    color: aliceblue;
+    top: 32%;
+    width: 100%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.content header {
+    width: 400px;
+    height: 250px;
+    margin-left: 180px;
+    border: 2px solid gray;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+.content header img {
+    width: 400px;
+    height: 230px;
+    border-radius: 20px;
+}
+
+.text {
+    border: 2px gray;
+    top: 32%;
+    width: 100%;
+    color: aliceblue;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.text header {
+    width: 400px;
+    height: 250px;
+    margin-left: 700px;
+    border: 2px solid gray;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text header img {
+    width: 400px ;
+    height: 230px ;
+    border-radius: 20px;
+}
+
+.imag {
+    border: 2px gray;
+    color: aliceblue;
+    top: 77%;
+    width: 100%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.imag header {
+    width: 400px;
+    height: 250px;
+    margin-left: 180px;
+    border: 2px solid gray;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+.imag header img {
+    width: 400px;
+    height: 230px;
+    border-radius: 20px;
+}
+
+.foto {
+    border: 2px gray;
+    top: 77%;
+    width: 100%;
+    color: aliceblue;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.foto header {
+    width: 400px;
+    height: 250px;
+    margin-left: 700px;
+    border: 2px solid gray;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.foto header img {
+    width: 400px ;
+    height: 230px ;
+    border-radius: 20px;
+}
